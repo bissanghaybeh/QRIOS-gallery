@@ -1,0 +1,20 @@
+$mobile: "(max-width: 767px)";
+@import "./components/Gallery/Gallery";
+@import "components/ImagePopup/ImagePopup";
+
+.main-container {
+    padding: 30px 30px 10px;
+    .footer {
+        padding: 0 20px;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 12px;
+    }
+}
+.logo {
+    width: 250px;
+    margin: 0 auto 30px;
+    img {
+        width: 100%;
+    }
+}
